@@ -1,0 +1,576 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+header {
+  background:url(../imgs/hero.png) no-repeat 0 3px;
+  height: 599px;
+  width: 100%;
+}
+
+header .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a {
+  display:block;
+  width:144px;
+  height:50px;
+  background:url(../imgs/sprite.png) no-repeat 0 -120px;
+}
+
+header nav ul.list-inline {
+  margin-top: 26px;
+  margin-left: 120px;
+  margin-bottom: 0;
+}
+
+header nav ul.list-inline>li:hover, header nav ul.list-inline>li:focus {
+  border-bottom: 2px solid rgb(248, 225, 180);
+}
+
+header nav ul.list-inline>li{
+  margin-right: 30px;
+  padding: 0;
+  height: 47px;
+}
+
+header nav ul.list-inline a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+header .social ul.list-inline {
+  padding: 0;
+  margin: 0;
+  margin-top: 6px;
+}
+
+header .social ul.list-inline>li {
+  margin: 0;
+  padding: 0;
+}
+
+header .social ul.list-inline>li .social1 {margin-right: 30px;}
+header .social ul.list-inline>li .social2 {margin-right: 40px;}
+header .social ul.list-inline>li .social3 {margin-right: 0;}
+
+header .social a { 
+  display: inline-block; 
+  width: 25px; 
+  height: 25px; 
+  background: url(../imgs/sprite.png) no-repeat 0 0;
+  margin-right: 30px;
+}
+header .social a.social1 {background-position:0 0;}
+header .social a.social2 {background-position:-60px 0;}
+header .social a.social3 {background-position:-120px 0;}
+
+.navbar {
+  background-color: rgba(119, 91, 163, 0.631);
+  margin: 0;
+  border: none;
+}
+
+.navbar .banner {
+  margin-top: 3px;
+  height: 72px;
+}
+
+section.top-top h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 107px;
+  margin-bottom: 33px;
+  line-height: 1.2;
+}
+
+section.top-top p {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.566;
+  margin: 0;
+}
+
+section.top-middle {
+  margin-top: 104px;
+  border-top:1px solid #91c5a9;
+  border-bottom:1px solid #91c5a9;
+}
+
+section.top-middle div.container {
+  margin-top: 82px;
+  margin-bottom: 83px;
+}
+
+section.top-middle h1 {
+  margin: 0;
+  margin-bottom: 54px; 
+}
+
+section.top-middle p {
+  margin: 0;
+  margin-top: 75px;
+}
+
+section.top-middle p span {
+  font-size: 53px;
+  font-family: "Istok";
+  color: rgb(145, 197, 169);
+  font-weight: bold;
+  line-height: 0.415;
+  margin-right: 6px;
+}
+
+section.top-bottom div.container {
+  margin-top: 90px;
+}
+
+section.top-bottom ul {
+  margin-top: 36px;
+  margin-bottom: 112px;
+}
+
+section.top-bottom ul li {
+  border: none;
+}
+
+section.top-bottom h2 {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Istok";
+  color: rgb(145, 197, 169);
+  font-weight: bold;
+  line-height: 1.2;
+  border-bottom:4px solid rgb(145, 197, 169);
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+section.top-bottom li p {
+  font-size: 13px;
+  font-family: "Istok";
+  color: rgb(75, 63, 85);
+  line-height: 1.385;
+  margin-top: 20px;
+}
+
+.top-bottom .social{
+  width: 100%;
+  height: 58px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.top-bottom .social a { 
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: inherit;
+}
+
+.top-bottom .social a.social1-craig {background-color: rgb(59, 89, 152);}
+.top-bottom .social a.social1-craig div.social-image{
+  position: absolute;
+  background: url(../imgs/sprite.png) no-repeat -60px -60px;
+  
+  width: 18px;
+  right: 50%;
+  margin-right: -9px;
+  
+  height: 33px;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.top-bottom .social a.social2-craig {background-color: rgb(209, 67, 51);}
+.top-bottom .social a.social2-craig div.social-image{
+  position: absolute;
+  background: url(../imgs/sprite.png) no-repeat -120px -60px;
+  
+  width: 30px;
+  right: 50%;
+  margin-right: -15px;
+  
+  height: 29px;
+  top: 50%;
+  margin-top: -15px;
+  
+}
+
+.top-bottom .social a.social1-bridge {background-color: rgb(59, 89, 152);}
+.top-bottom .social a.social1-bridge div.social-image{
+  position: absolute;
+  background: url(../imgs/sprite.png) no-repeat -60px -60px;
+  
+  width: 18px;
+  right: 50%;
+  margin-right: -9px;
+  
+  height: 33px;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.top-bottom .social a.social2-bridge {background-color: rgb(234, 76, 136);}
+.top-bottom .social a.social2-bridge div.social-image{
+  position: absolute;
+  background: url(../imgs/sprite.png) no-repeat 0px -60px;
+  
+  width: 31px;
+  right: 50%;
+  margin-right: -15px;
+  
+  height: 32px;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.top-bottom .social a.social1-malade {background-color: rgb(0, 172, 237);}
+.top-bottom .social a.social1-malade div.social-image{
+  position: absolute;
+  background: url(../imgs/sprite.png) no-repeat -180px -60px;
+  
+  width: 28px;
+  right: 50%;
+  margin-right: -14px;
+  
+  height: 29px;
+  top: 50%;
+  margin-top: -14px;
+}
+
+.top-bottom .social a.social2-malade {background-color: rgb(199, 12, 12);}
+.top-bottom .social a.social2-malade div.social-image{
+  position: absolute;
+  background: url(../imgs/sprite.png) no-repeat -240px -60px;
+  
+  width: 30px;
+  right: 50%;
+  margin-right: -15px;
+  
+  height: 32px;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.divider {
+  background-color: rgb(119, 91, 163);
+  color: rgb(255, 255, 255);
+}
+
+.divider .container {
+  padding-bottom: 56px;
+  padding-top: 95px;
+}
+
+.divider h1 {
+  font-size: 40px;
+  font-family: "Istok";
+  color: inherit;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 81px;
+}
+
+.divider article {
+  padding-bottom: 54px;
+}
+
+.divider .side-article-right {
+  padding-left: 33px;
+}
+
+.divider article h1 {
+  font-size: 35px;
+  font-family: "Istok";
+  font-weight: bold;
+  line-height: 1.343;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.divider article p {
+  font-size: 14px;
+  font-family: "Istok";
+  font-weight: regular;
+  line-height: 1.5;
+}
+
+.divider article img {
+  width: 100%;
+  height: auto;
+}
+
+.divider article .button {
+  font-size: 18px;
+  font-family: "Istok";
+  color: inherit;
+  font-weight: bold;
+  display: block;
+  width: 195px;
+  height: 55px;
+  border: 4px solid #FFF;
+  line-height: 47px;
+  margin-top: 47px;
+}
+
+.bottom-top {
+  border-bottom:1px solid rgb(145, 197, 169);
+  padding-bottom: 135px;
+}
+
+.bottom-top .container {
+  margin-top: 88px;
+}
+
+.bottom-top h1 {
+  font-size: 40px;
+  font-family: "Istok";
+  font-weight: bold;
+  line-height: 1.175;
+}
+
+.bottom-top img {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding-right: 0;
+}
+
+.bottom-top p {
+  margin: 0;
+  margin-top: -8px;
+}
+
+.bottom-top .quotes {
+  display: inline-block;
+}
+
+.bottom-top .quote-open, .quote-closed {
+  font-size: 40px;
+  font-family: "Lucida Handwriting";
+  color: rgb(145, 197, 169);
+  font-style: italic;
+  line-height: 1.175;
+  font-weight: bold;
+}
+
+.bottom-top .quote-open {
+  margin-left: -26px;
+  margin-top: -16px;
+}
+
+.bottom-top .quote-closed {
+  margin-right: -26px;
+  margin-bottom: -16px;
+}
+
+.bottom-top .quote-closed {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.bottom-top .quote {
+  font-size: 27px;
+  font-family: "Istok";
+  color: rgb(75, 63, 85);
+  line-height: 1.741;
+  margin-bottom: 6px;
+}
+
+.bottom-top .quoter {
+  font-size: 16px;
+  font-family: "Istok";
+  color: rgb(126, 99, 168);
+  font-style: italic;
+  line-height: 2.938;
+}
+
+.bottom-bottom .container {
+  padding-right: 0px;
+  padding-top: 59px;
+  padding-bottom: 114px;
+}
+
+.bottom-bottom h1 {
+  font-size: 40px;
+  font-family: "Istok";
+  color: rgb(126, 99, 167);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.bottom-bottom ul.thumbnails {
+  margin-top: 60px;
+  margin-left: 0;
+}
+
+.bottom-bottom ul.thumbnails li {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1px;
+  float: left;
+}
+
+.bottom-bottom nav {
+  margin-top: 23px;
+}
+
+.bottom-bottom nav a {
+  font-size: 16px;
+  font-family: "Istok";
+  color: rgb(126, 99, 168);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.bottom-bottom nav a:hover, .bottom-bottom nav a:focus {
+  border-bottom:3px solid rgb(145, 197, 169);
+}
+
+.footer1 {
+  background-color: rgb(145, 197, 169);
+  color: rgb(255, 255, 255);
+}
+
+.footer1 h2 {
+  color: inherit;
+  font-size: 23px;
+  font-family: "Istok";
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.footer1 p {
+  font-size: 14px;
+  font-family: "Istok";
+  line-height: 1.2;
+}
+
+.footer1 .container {
+  padding-top: 39px;
+  padding-bottom: 28px;
+}
+
+.footer1 ul.tags a {
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Istok";
+  color: rgb(255, 255, 255);
+  line-height: 32px;
+  background-color: rgb(65, 149, 104);
+  height: 31px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer1 ul.tags {
+  margin-left: 0;
+  margin-top: 17px;
+}
+
+.footer1 ul.tags>li {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 11px;
+}
+
+.footer1 ul.tags>li:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.footer1 ul.tags>li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.footer1 form {
+  margin-top: 23px;
+}
+
+.footer1 .form-element {
+  text-align: left;
+}
+
+.footer1 label {
+  width: 70px;
+  margin-left: 9px;
+  vertical-align: top;
+  margin-top: 8px;
+}
+
+.footer1 input {
+  display: inline-block;
+  width: 183px;
+  height: 26px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(65, 149, 104);
+  margin-bottom: 10px;
+}
+
+.footer1 #message {
+  height: 92px;
+}
+
+.footer1 .contact h2 {
+  text-align: right;
+  margin-right: 43px;
+}
+
+.footer2 {
+  color: rgb(255, 255, 255);
+}
+
+.footer2 .footer-elements {
+  height: 72px;
+  margin-bottom: 1px;
+  background-color: rgb(84, 134, 93);
+  box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.footer2 small {
+  font-size: 14px;
+  font-family: "Istok";
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 32px;
+}
+
+.footer2 nav {
+  margin-top: 32px;
+}
+
+.footer2 nav ul {
+  margin-bottom: 0;
+}
+
+.footer2 nav ul li {
+  margin-right: 5px;
+}
+
+.footer2 nav a {
+  height: 72px;
+  color: inherit;
+  font-size: 12px;
+  font-family: "Istok";
+  font-weight: bold;
+  line-height: 1.2;
+}
